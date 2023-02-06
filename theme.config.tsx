@@ -1,7 +1,11 @@
 import React from 'react'
+import { useRouter as useRouter8 } from "next/router"
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const repository = 'https://github.com/mosuzi/mosu-city-source'
+
+var DEFAULT_LOCALE = "zh"
+// var DEFAULT_LOCALE = "en-US"
 
 const config: DocsThemeConfig = {
   logo: <span>莫苏城</span>,
@@ -19,7 +23,24 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: '%s – 莫苏城'
     }
-  }
+  },
+  toc: {
+    title: "本文"
+  },
+  editLink: {
+    component: null
+  },
+  feedback: {
+    content: null
+  },
+  gitTimestamp({ timestamp }) {
+    const { locale = DEFAULT_LOCALE } = useRouter8();
+    return /* @__PURE__ */ React.createElement(React.Fragment, null, "最后更新于", "", timestamp.toLocaleDateString(locale, {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    }));
+  },
 }
 
 export default config

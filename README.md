@@ -1,23 +1,17 @@
-# Nextra Docs Template 
+# 介绍
+ 
+欢迎来到莫苏城 :)
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+这是一本藏于莫苏城帝国图书馆的书籍，原本作者莫苏子仅仅是计划整理出版莫苏城的过往事迹，在整理参阅资料的过程中，逐渐遍历了宇宙双陆历国历代典籍，由此作者改笔，转而以散记杂文的方式记录整个宇宙双陆的国志、人文、地理等等事物。本书作于宙陆2207年，成于宙陆2217年，成书后，幸得当朝仁皇帝临阅，收藏于帝国图书馆。
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## 莫苏城
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+现如今的莫苏城始建于宙陆2188年，成于宙陆2193年。起初，西楚国协正盛兵锋远征清川王国，仅仅依靠北线补给军队已经显得力不从心，于是决定于原莫城墟旁，修建一座新的城池，用于南线补给中转。得益于早年于莫城墟发现的克里卡帝国边疆总督图册，莫苏城修建的很顺利，中央宫殿群及城市轮廓于宙陆2190年已经修建完毕。是时西楚王禅位于圣皇帝，于是迁都莫苏，建立莫苏帝国。
 
-## Quick Start
+## 莫苏子
 
-Click the button to clone this repository and deploy it on Vercel:
+作者莫苏子是莫苏帝国的书史司。其祖上世代居住于尼多克城，常在尼多克所属邦国任职史官，家族最兴盛时出过多位丞相。到作者祖父一代时，因为尼多克所属的北海-尼多克联邦多生动乱，时任王国书史司的作者祖父因反对尼多克并入西楚国而被刺杀，其父畏惧，便辞官归家。帝国建立后，其父被复起为帝国书史司，举家搬迁至莫苏城。自后数年，因其父年事已高，作者接任其父书史司之职。东海危机后，作者感慨史书繁多复杂，整理颇耗费心力，于是决意整理史书，编撰此《莫苏城》。
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+---
 
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+[在线](https://www.mosu.city)
