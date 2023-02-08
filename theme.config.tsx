@@ -17,7 +17,10 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: repository,
   footer: {
-    text: <span>MIT {new Date().getFullYear()} © Mosu City | Powered by <a href="https://nextra.site" target="_blank">Nextra</a> Docs</span>,
+    text: () => {
+      const nowYear: String = '' + new Date().getFullYear()
+      return <span>MIT {nowYear === '2023' ? nowYear : '2023 - ' + nowYear} © Mosu City | Powered by <a href="https://nextra.site" target="_blank">Nextra</a> Docs</span>
+    }
   },
   useNextSeoProps() {
     return {
