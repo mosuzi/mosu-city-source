@@ -1,9 +1,10 @@
 {
   "index": "介绍",
   "preamble": {
-    "title": "前言",
-    "display": "hidden"
+    "title": "前言"
   },
+  "zhou-north":  "宙陆北域",
+  "yu-east":  "宇陆东域",
   "me": {
     "title": "作者 ↗",
     "type": "page",
